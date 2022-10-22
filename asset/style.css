@@ -1,0 +1,247 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    cursor: pointer;
+}
+
+a :hover{
+    color: #11998e;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* login */
+.zan-login {
+    background-color: white;
+    width: 650px;
+    height: 400px;    
+    margin: auto;
+    margin-top: 6%;
+    /* padding: 20px 0; */
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.game-menu {
+    background-color: white;
+    width: 650px;
+    height: 400px;    
+    margin: auto;
+    margin-top: 6%;
+    /* padding: 20px 0; */
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.game-menuu {
+    background-color: white;
+    width: 750px;
+    height: 400px;    
+    margin: auto;
+    margin-top: 6%;
+    /* padding: 20px 0; */
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.judul-login{
+    /* position: absolute; */
+    padding-left: 30%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    font-size: 25px;
+}
+
+.isi-left{
+    display: flex;
+}
+
+.isi-left2{
+    float: left;
+}
+
+.isi-left img{
+    width: 300px;
+}
+.zan-login h2{
+    color: #11998e;
+
+}
+
+.isi-left p{
+    font-weight: bold;
+    margin-top: 6.5%;
+    margin-left: 2%;
+}
+
+.isi-right input{
+    height: 30px;
+    width: 250px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-top: 2px;
+}
+
+.isi-right{
+    position: relative;
+    line-height: 30px;
+    margin-left: 5%;
+}
+
+.dont-login label{
+    font-size: 10px;
+}
+
+.dont-login a{
+    font-size: 10px;
+    text-decoration: none;
+}
+
+/* regist */
+.zan-regist{
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    float: right;
+    text-align: left;
+    line-height: 30px;
+    padding: 2% 5%;
+    margin-right: 3%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    box-sizing: border-box;
+
+}
+
+.zan-regist h2{
+    text-align: center;
+    color: #11998e;
+
+}
+
+.title{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.sub h2{
+    margin-left: 5%;
+    font-weight: bold;
+    margin-top: 10%;
+    color: white;
+    letter-spacing: 5px;
+    position: fixed;
+    font-size: 45px;
+}
+
+.desc{
+    display: flex;
+    line-height: 5rem;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 36%;
+    margin-left: 5%;
+    position: fixed;
+}
+
+.desc a{
+    color: #d3d3d3;
+}
+
+.desc a :hover{
+    color: #11998e;
+}
+
+.foot{
+    margin-top: 41%;
+    margin-left: 5%;
+    position: fixed;
+    font-size: 10px;
+    color: white;
+
+}
+
+.foot a{
+    color: #d3d3d3;
+    text-decoration: none;
+}
+
+.foot a :hover{
+    color: #11998e;
+}
+
+/* countainer */
+.countainer-login{
+    background-size: cover; 
+    height: 658px; 
+     background-image: url(img/bglogin.gif);
+}
+
+.countainer-regist{
+    display: none;
+    font-family: 'Montserrat', sans-serif; 
+    margin-top: 0; 
+    background-size: cover; 
+    height: 680px; 
+    background-attachment: fixed; 
+    background-image: url(img/bgregist.gif);
+}
+
+.upper { text-transform: uppercase; }
+
+/* gamenya */
+.gamenya{
+    background-color: white;
+    width: 650px;
+    height: 400px;    
+    margin: auto;
+    margin-top: 6%;
+    /* padding: 20px 0; */
+    box-sizing: border-box;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    display: none;
+}
+
+.gamenya label{
+    position: absolute;
+    padding-top: 10px;
+    margin-left: 1%;
+}
+
+.menu-menu{
+    text-align: center;
+}
+
+.isi-menu{
+    margin-left: 2%;
+    box-sizing: border-box;
+    padding: 10px 15px;
+}
+
+.footer{
+    margin-top: 7%;
+    margin-left: 38%;
+    position: fixed;
+    font-size: 15px;
+    color: white;
+}
